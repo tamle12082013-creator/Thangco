@@ -62,12 +62,12 @@ local plr = Player
 local Root = HumanoidRootPart
 
 -- ==========================================
--- LOAD UI LIBRARY (HDanh Hub)
+-- LOAD UI LIBRARY (TAM Hub)
 -- ==========================================
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/UI/refs/heads/main/ui_BananaHub_final.lua"))()
 
 Window = Library:CreateWindow({
-    Title = "banana Hub",
+    Title = "TAMDZ Hub",
     Desc = "- Blox Fruit",
     Image = "rbxassetid://82734418817397"
 })
@@ -354,7 +354,7 @@ wait(1)
 
 Library:Notify({
     Title = "banana Hub",
-    Description = "Chào mừng! UI màu hồng đã được load thành công.\nNhấn nút góc trái màn hình để mở GUI.",
+    Description = "Chào mừng! UI màu đen đã được load thành công.\nNhấn nút góc trái màn hình để mở GUI.",
     Duration = 4
 })
 
@@ -2946,24 +2946,24 @@ task.defer(function()
 end)
 Tabs.Info:AddSection("Thông Tin")
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Community",
+    ["Title"] = "TAMDZ Community",
     ["Description"] = "Discord",
     ["Callback"] = function()
         setclipboard(tostring("https://dsc.gg/nopermc"))
     end
 })
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Hub",
-    ["Description"] = "Youtube",
+    ["Title"] = "TAMDZ Hub",
+    ["Description"] = "TIKTOK",
     ["Callback"] = function()
-        setclipboard(tostring("https://youtube.com/@nopermc"))
+        setclipboard(tostring("https://youtube.com/"))
     end
 })
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Hub",
+    ["Title"] = "TAMDZ Hub",
     ["Description"] = "Tiktok",
     ["Callback"] = function()
-        setclipboard(tostring("www.tiktok.com/@uytins1vn._"))
+        setclipboard(tostring("www.tiktok.com/"))
     end
 })
 Tabs.Info:AddParagraph({
@@ -12060,4 +12060,4 @@ Tabs.Misc:AddButton({
 })
 
 -- ===============================================================
-print('✅ Banana Hub - Tất cả tính năng đã được load!')
+print('✅ TAMDZ Hub - Tất cả tính năng đã được load!')
