@@ -40,12 +40,12 @@ Window:EditOpenButton({
 -- 🍎 HOME
 -- =========================
 local Tabs = {}
-Tabs.Home1 = Window:Tab({ Title = "TAM" })
-Tabs.Home2 = Window:Tab({ Title = "player" })
+Tabs.Home1 = Window:Tab({ Title = "blox fruit" })
+Tabs.Home2 = Window:Tab({ Title = "kaitun" })
 
 -- 🍎 Button 1: Định vị
 Tabs.Home1:Button({
-    Title = "blox fruit",
+    Title = "trẩu",
     Callback = function()
         loadstring(game:HttpGet(
             "https://raw.githubusercontent.com/trungdao2k4/trauroblox/refs/heads/main/traubluev1"
@@ -54,10 +54,10 @@ Tabs.Home1:Button({
     end
 })
 
--- 🍎 Button 2: Hitbox (chống spam)
+-- 🍎 Button 1: Hitbox (chống spam)
 local hitboxLoaded = false
 Tabs.Home1:Button({
-    Title = "🍎 Hitbox Téo",
+    Title = "quantum hub",
     Callback = function()
         if hitboxLoaded then
             warn("⚠️ Hitbox đã bật rồi")
@@ -65,7 +65,7 @@ Tabs.Home1:Button({
         end
         hitboxLoaded = true
         loadstring(game:HttpGet(
-            "https://raw.githubusercontent.com/teoscrvn/Script-t-o-v2/main/hitbox%20roblox.txt"
+            "https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"
         ))()
         print("🍎 Hitbox ON")
     end
@@ -82,15 +82,25 @@ Tabs.Home2:Toggle({
 
 -- 🍎 Thông báo
 WindUI:Notify({
-    Title = "🍎 TÉO HUB",
+    Title = "TAMDZ HUB",
     Content = "Load thành công!",
     Duration = 4
 })
 Tabs.Home1:Button({
-    Title = "đinh vij teos",
+    Title = "banana free",
     Callback = function()
         loadstring(game:HttpGet(
-            "https://raw.githubusercontent.com/teoscrvn/Script-t-o-v2/main/dinhvi2.txt"
+            "https://raw.githubusercontent.com/aloaloalo322/sssdas/refs/heads/main/cc"
+        ))()
+        print("🍎 Đã chạy định vị")
+    end
+}) 
+
+Tabs.Home1:Button({
+    Title = "maru free",
+    Callback = function()
+        loadstring(game:HttpGet(
+            "https://raw.githubusercontent.com/longhihilonghihi-hub/MaruHubV1/refs/heads/main/MainV1.Lua"
         ))()
         print("🍎 Đã chạy định vị")
     end
