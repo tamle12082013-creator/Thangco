@@ -105,3 +105,23 @@ Tabs.Home1:Button({
         print("🍎 Đã chạy định vị")
     end
 })
+
+Tabs.Home1:Button({
+    Title = "xeter",
+    Callback = function()
+        loadstring(game:HttpGet(
+            "https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"
+        ))()
+        print("🍎 Đã chạy định vị")
+    end
+})
+
+Tabs.Home1:Button({
+    Title = "bear hub",
+    Callback = function()
+        loadstring(game:HttpGet(
+            "https://raw.githubusercontent.com/Huylovemy/Bearhudz/refs/heads/main/Bearhud.lua"
+        ))()
+        print("🍎 Đã chạy định vị")
+    end
+})
