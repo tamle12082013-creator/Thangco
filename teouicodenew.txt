@@ -41,7 +41,7 @@ Window:EditOpenButton({
 -- =========================
 local Tabs = {}
 Tabs.Home1 = Window:Tab({ Title = "blox fruit" })
-Tabs.Home2 = Window:Tab({ Title = "kaitun" })
+Tabs.Home2 = Window:Tab({ Title = "fix lag" })
 
 -- 🍎 Button 1: Định vị
 Tabs.Home1:Button({
@@ -141,6 +141,16 @@ Tabs.Home1:Button({
     Callback = function()
         loadstring(game:HttpGet(
             "https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV4.1.0/refs/heads/main/MainV4.1.0"
+        ))()
+        print("🍎 Đã chạy định vị")
+    end
+})
+
+Tabs.Home2:Button({
+    Title = "fix lag",
+    Callback = function()
+        loadstring(game:HttpGet(
+            "https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"
         ))()
         print("🍎 Đã chạy định vị")
     end
