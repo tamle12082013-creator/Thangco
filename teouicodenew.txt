@@ -19,7 +19,7 @@ print("🍎 WindUI loaded OK")
 local Window = WindUI:CreateWindow({
     Title = "TAMDZ",
     Size = UDim2.fromOffset(580, 340),
-    Theme = "Dark",
+    Theme = "RED",
     Transparent = true
 })
 
@@ -74,7 +74,7 @@ Tabs.Home1:Button({
 
 -- 🍎 Toggle mẫu
 Tabs.Home2:Toggle({
-    Title = "🍎 Chế độ Pro (test)",
+    Title = "cặc ba mày thích nhìn ko",
     Default = false,
     Callback = function(state)
         print("🍎 Pro:", state)
