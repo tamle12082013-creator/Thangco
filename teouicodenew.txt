@@ -125,3 +125,13 @@ Tabs.Home1:Button({
         print("🍎 Đã chạy định vị")
     end
 })
+
+Tabs.Home1:Button({
+    Title = "gravity hub",
+    Callback = function()
+        loadstring(game:HttpGet(
+            "https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"
+        ))()
+        print("🍎 Đã chạy định vị")
+    end
+})
