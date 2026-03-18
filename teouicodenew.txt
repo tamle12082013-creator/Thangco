@@ -135,3 +135,13 @@ Tabs.Home1:Button({
         print("🍎 Đã chạy định vị")
     end
 })
+
+Tabs.Home1:Button({
+    Title = "longhihi",
+    Callback = function()
+        loadstring(game:HttpGet(
+            "https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV4.1.0/refs/heads/main/MainV4.1.0"
+        ))()
+        print("🍎 Đã chạy định vị")
+    end
+})
