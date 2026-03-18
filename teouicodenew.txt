@@ -42,6 +42,7 @@ Window:EditOpenButton({
 local Tabs = {}
 Tabs.Home1 = Window:Tab({ Title = "blox fruit" })
 Tabs.Home2 = Window:Tab({ Title = "fix lag" })
+Tabs.Home3 = Window:Tab({ Title = "hop sv" })
 
 -- 🍎 Button 1: Định vị
 Tabs.Home1:Button({
