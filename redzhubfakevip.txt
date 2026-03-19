@@ -3738,13 +3738,13 @@ function CheckItemBPCRBPCR(v463)
 end
 local vu32 = loadstring(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/Library-ui/refs/heads/main/redz-V5-remake/main.luau"))()
 local v466 = vu32:MakeWindow({
-    Title = "redz hub [ SKIDDED VERSION BY ZERO ] : Blox Fruits",
-    SubTitle = "skidded version",
+    Title = "TAMDZ Hub : Blox Fruits",
+    SubTitle = "premium",
     SaveFolder = "Redz | redz lib v5.lua"
 })
 
 v466:AddMinimizeButton({
-    Button = { Image = "rbxassetid://15298567397", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://108334892838042", BackgroundTransparency = 0 },
     Size = UDim2.new(0, 35, 0, 35),
     Corner = { CornerRadius = UDim.new(0.25, 0) },
 })
