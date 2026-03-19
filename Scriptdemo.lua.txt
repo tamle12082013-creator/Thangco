@@ -103,7 +103,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/trauroblo
   Translator = true; -- true/false
 }
 
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
   end
   })
