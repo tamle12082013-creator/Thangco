@@ -2,26 +2,26 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "TAM Roblox",
-         Animation = "TAMDZ"
+         Title = "TAM Hub Roblox",
+         Animation = "Tiktok: tự bt"
          },
         Key = {
         KeySystem = false,
         Title = "Key System",
         Description = "",
-        KeyLink = "discord",
-        Keys = {"btchaoboko"},
+        KeyLink = "",
+        Keys = {"1234"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "btchaoboko"
-       Incorrectkey = " btchaoboko",
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
        CopyKeyLink = "Copied to Clipboard"
       }
     }
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=82734418817397",
+       Image = "http://www.roblox.com/asset/?id=83190276951914",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -45,11 +45,3 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
-  
-   AddButton(Tab2o, {
-     Name = "adz hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
-  end
-  }}
-    
