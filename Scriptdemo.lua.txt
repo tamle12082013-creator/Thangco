@@ -74,7 +74,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/trungdao2k4/trauroblo
   end
   })
   
-  AddButton(Tab2o, {
+  AddButton(Tab1o, {
      Name = "Banana Hub",
     Callback = function()
 	  local Settings = {
