@@ -9,7 +9,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = false,
         Title = "Key System",
         Description = "",
-        KeyLink = "",
+        KeyLink = "TAMDEPZAI",
         Keys = {"1234"},
         Notifi = {
         Notifications = true,
@@ -31,8 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
-     local Tab2o = MakeTab({Name = "premium"})
-     local Tab3o = MakeTab({Name = "hop sv"})
+     local Tab2o = MakeTab({Name = "hop sv"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -87,7 +86,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/aloaloalo322/sssdas/r
   end
   })
   
-  AddButton(Tab2o, {
+  AddButton(Tab1o, {
      Name = "Maru Hub",
     Callback = function()
 	  local Settings = {
@@ -171,7 +170,7 @@ loadstring(game:HttpGet("https://key.bloxlegend.com/raw/HopServer"))()
   end
   })
   
-  AddButton(Tab3o, {
+  AddButton(Tab2o, {
      Name = "teddy bell hub",
     Callback = function()
 	  local Settings = {
@@ -183,7 +182,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepza
   end
   })
   
-  AddButton(Tab3o, {
+  AddButton(Tab2o, {
      Name = "bacon Hub",
     Callback = function()
 	  local Settings = {
