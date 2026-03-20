@@ -5,11 +5,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Title = "TAM Hub",
          Animation = "Tiktok: tự biết"
          },
-        Key = {
+        Key = {Tamdeptrai}
         KeySystem = false,
         Title = "Key System",
         Description = "",
-        KeyLink = "TAMDEPZAI",
+        KeyLink = "",
         Keys = {"1234"},
         Notifi = {
         Notifications = true,
