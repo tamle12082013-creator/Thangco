@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Chanbomayde",
-         Animation = "Youtube: TBoy Roblox"
+         Animation = "chanbomayde"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Image = "http://www.roblox.com/asset/?id=101541809205410",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -30,8 +30,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
-     
+     local Tab1o = MakeTab({Name = "Main Farm"})
+     local Tab2o = MakeTab({Name = "Script kaitun"})
+     local Tab3o = MakeTab({Name = "Script kaitun levi"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -42,3 +43,93 @@ getgenv().Key = "07fe7cf64c9b28da011b3d8f"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
   end
   })
+  
+  AddButton(Tab2o, {
+     Name = "Banana",
+    Callback = function()  
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "07fe7cf64c9b28da011b3d8f"
+getgenv().SettingFarm ={
+    ["Hide UI"] = false,
+    ["Reset Teleport"] = {
+        ["Enabled"] = false,
+        ["Delay Reset"] = 3,
+        ["Item Dont Reset"] = {
+            ["Fruit"] = {
+                ["Enabled"] = true,
+                ["All Fruit"] = true, 
+                ["Select Fruit"] = {
+                    ["Enabled"] = false,
+                    ["Fruit"] = {},
+                },
+            },
+        },
+    },
+    ["White Screen"] = false,
+    ["Lock Fps"] = {
+        ["Enabled"] = false,
+        ["FPS"] = 20,
+    },
+    ["Get Items"] = {
+        ["Saber"] = true,
+        ["Godhuman"] =  true,
+        ["Skull Guitar"] = true,
+        ["Mirror Fractal"] = true,
+        ["Cursed Dual Katana"] = true,
+        ["Upgrade Race V2-V3"] = true,
+        ["Auto Pull Lever"] = true,
+        ["Shark Anchor"] = true, --- if have cdk,sg,godhuman
+    },
+    ["Get Rare Items"] = {
+        ["Rengoku"] = false,
+        ["Dragon Trident"] = false, 
+        ["Pole (1st Form)"] = false,
+        ["Gravity Blade"]  = false,
+    },
+    ["Farm Fragments"] = {
+        ["Enabled"]  = false,
+        ["Fragment"] = 50000,
+    },
+    ["Auto Chat"] = {
+        ["Enabled"] = false,
+        ["Text"] = "",
+    },
+    ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
+    ["Select Hop"] = { -- 70% will have it
+        ["Hop Server If Have Player Near"] = false, 
+        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
+        ["Hop Find Dough King Get Mirror Fractal"] = false,
+        ["Hop Find Raids Castle [CDK]"] = true,
+        ["Hop Find Cake Queen [CDK]"] = true,
+        ["Hop Find Soul Reaper [CDK]"] = true,
+        ["Hop Find Darkbeard [SG]"] = true,
+        ["Hop Find Mirage [ Pull Lever ]"] = false,
+    },
+    ["Farm Mastery"] = {
+        ["Melee"] = false,
+        ["Sword"] = false,
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = true,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+    },
+    ["Sniper Fruit Shop"] = {
+        ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
+        ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas"},
+    },
+    ["Lock Fruit"] = {},
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+
+AddButton(Tab3o, {
+     Name = "Banana",
+    Callback = function()   
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "07fe7cf64c9b28da011b3d8f"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
