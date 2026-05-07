@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Key System",
         Description = "",
         KeyLink = "https://notevn.com/sq5pxyh4",
-        Keys = {"tamdeptrai"},
+        Keys = {"tamquadeptrai"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
