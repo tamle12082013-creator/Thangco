@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Main Farm"})
      local Tab2o = MakeTab({Name = "Script kaitun"})
      local Tab3o = MakeTab({Name = "Script kaitun levi"})
+     local Tab4o = MakeTab({Name = "Script auto bounty"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -137,3 +138,113 @@ getgenv().Key = "07fe7cf64c9b28da011b3d8f"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
 end
   })
+  
+  AddButton(Tab4o, {
+     Name = "Banana",
+    Callback = function() 
+    
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "07fe7cf64c9b28da011b3d8f"
+    getgenv().Setting = {
+        ["Team"] = "Pirate",
+        ["Method Click"] = {["Click Gun"] = false ,["Click Melee"] = true,["Click Sword"] = false,["Click Fruit"] = false, ["LowHealth"] = 5000, ["Delay Click"] = 0.3},
+        ["Race V4"] = {["Enable"] = true},
+        ["Webhook"] = {["Enabled"] = false,["Url Webhook"] = ""},
+        ["Misc"] = {["AutoBuyRandomandStoreFruit"] = true,["AutoBuySurprise"] = true},
+        ["SafeZone"] = {["Enable"] = true,["LowHealth"] = 4500,["MaxHealth"] = 8000,["Teleport Y"] = 2000},
+        ["Method Use Skill"] = {["Use Random"] = true,["Use Number"] = false},
+        ["Use random skill if player target low health"] = { --- suport only method use skill Number
+            ["Enabled"] = true,
+            ["Low Health"] = 4000,
+        },
+        ["Use Portal Teleport"] = false,
+        ["Target Time"] = 20,
+        ["Aim Prediction"] = 0.5,
+        ["Select Region"] = {["Enabled"] = false,["Region"] = {["Singapore"] = true,["United States"] = false,["Netherlands"] = false,["Germany"] =false,["India"] = false,["Australia"] = false}},
+        ["Ignore Devil Fruit"] = {"Human-Human","Portal-Portal"}, 
+        ["Dodge Skill Player"] = true, --- Beta per 50% can dodge 
+        ["Spam Dash"] = false, ---- risk can banned 1 day
+        ["Equip Weapon"] = {
+            ["Enabled"] = false,
+            ["Melee"] = {
+                ["Enabled"] = false,
+                ["Name Weapon"] = "",
+            },
+            ["Sword"] = {
+                ["Enabled"] = false,
+                ["Name Weapon"] = "",
+            },
+            ["Gun"] = {
+                ["Enabled"] = false,
+                ["Name Weapon"] = "",
+            },
+        },
+        ["Weapons"] = {
+            ["Melee"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 2},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 3},
+                    ["C"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 5},
+                },
+            },
+            ["Blox Fruit"] = {
+                ["Enable"] = false,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 4},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 6},
+                    ["C"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 9},
+                    ["V"] = {["Enable"] = false,["HoldTime"] = 0.3,["Number"] = 0},
+                    ["F"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 8},
+                },
+            },
+            ["Gun"] = {
+                ["Enable"] = true,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 1},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.3,["Number"] = 7},
+                },
+            },
+            ["Sword"] = {
+                ["Enable"] = false,
+                ["Skills"] = {
+                    ["Z"] = {["Enable"] = true,["HoldTime"] = 1.5,["Number"] = 0},
+                    ["X"] = {["Enable"] = true,["HoldTime"] = 0.5,["Number"] = 0},
+                },
+            },
+        }
+    }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-BountyEz.lua"))()
+end
+  })
+  AddButton(Tab4o, {
+     Name = "Banana m1",
+    Callback = function() 
+    
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "07fe7cf64c9b28da011b3d8f"
+getgenv().config =   {
+    team = "Pirates", -- "Pirates" "Marines"
+    hpTimeout = 15,
+    targetTimeout = 20,
+    lowHealth = 4000,
+    safeHealth = 4500,
+    blackScreen = false,
+    useSkill = false, -- only x f gas fruit
+    equipPaleScarf = false,
+    webhookurl = "",
+    webhookEnable = false,
+    webhookSendMinutes = 5,
+    attackSpeed = 0.001,
+    mode = 1, -- 2 or 1 
+    sea = 3,
+    region = "Singapore",
+    trans = false, -- auto press V t rex 
+    bltween = true, -- bypass may thang di chuyen toc do cao lien tuc > 7s - kho gay dame 
+    bpsit = true, -- khong hunt may thang ngoi thuyen - kho gay dame 
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/Bountynew.lua"))()
+end
+  })    
+
+    
