@@ -85,5 +85,34 @@ end
     end
   })
   
+  AddButton(Tab1o, {
+     Name = "longhihiv4",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV4/refs/heads/main/MainV4.Lua"))()
+    end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "xeterv4",
+    Callback = function()
+    getgenv().Version = "V4"
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
+end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "maru fake",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/MaruHubV1/refs/heads/main/MainV1.Lua "))()
+    end
+  })
+  
+  
+    
+    
+  
+  
+  
   
   
