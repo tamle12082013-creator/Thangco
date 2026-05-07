@@ -9,7 +9,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "Key System",
         Description = "",
-        KeyLink = "",
+        KeyLink = "https://notevn.com/sq5pxyh4",
         Keys = {"tamdeptrai"},
         Notifi = {
         Notifications = true,
@@ -47,3 +47,43 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
   end
   })
+  
+  AddButton(Tab1o, {
+     Name = "Banana fake(1)",
+    Callback = function()
+    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "XyZpQrStUvWxYzAbCdEfGhIjKl" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ohofo2279/Premium/refs/heads/main/BF-BananaCat.lua"))()
+end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Banana(2)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/aloaloalo322/sssdas/refs/heads/main/cc"))()
+    end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "longhihiv1",
+    Callback = function()
+    loadstring(game:HttpGet(" https://raw.githubusercontent.com/longhihilonghihi-hub/LongHiHiDZ-TetDen/refs/heads/main/LocTet2026.txt"))()
+    end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "longhihiv2",
+    Callback = function()
+    loadstring(game:HttpGet(" https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV2/refs/heads/main/MainV2.txt"))()
+    end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "longhihiv3",
+    Callback = function()
+    loadstring(game:HttpGet(" https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV3.2/refs/heads/main/MainV3-UltraAttack.Lua"))()
+    end
+  })
+  
+  
+  
