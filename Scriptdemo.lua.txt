@@ -31,6 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "blox fruit"})
+     local Tab2o = MakeTab({Name = "script admin user"})
      
 ------- BUTTON
     
@@ -201,6 +202,16 @@ end
     Callback = function()
     getgenv().Team = "Pirates" -- Marnies
 loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/HopScript.luau"))()
+end
+  })
+  
+  
+  AddButton(Tab2o, {
+     Name = "banana hub premium",
+    Callback = function()
+    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "07fe7cf64c9b28da011b3d8f" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
 end
   })
     
