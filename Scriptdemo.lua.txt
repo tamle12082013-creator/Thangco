@@ -3,11 +3,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "TAM HUB",
-         Animation = "Tiktok Tamsieudeptrai00 Roblox"
+         Animation = "Tiktok Tamsieudeptrai00"
          },
         Key = {
         KeySystem = true,
-        Title = "Key System",
+        Title = "chào tụi mày đến script tổng hợp của tao",
         Description = "",
         KeyLink = "https://notevn.com/sq5pxyh4",
         Keys = {"key_366736673667"},
@@ -15,7 +15,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Notifications = true,
         CorrectKey = "vô rồi đó thằng lồn",
        Incorrectkey = "key đéo xài dc",
-       CopyKeyLink = "Copied to Clipboard"
+       CopyKeyLink = "tự lấy key đi đéo rảnh"
       }
     }
   })
@@ -31,7 +31,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "blox fruit"})
-     local Tab2o = MakeTab({Name = "script admin user"})
+     local Tab2o = MakeTab({Name = "tao xài dc thôi mấy đứa ngu"})
+     local Tab3o = MakeTab({Name = "99 đêm"})
+     local Tab4o = MakeTab({Name = "tsb"})
+     local Tab5o = MakeTab({Name = "comming soon"})
+     
      
 ------- BUTTON
     
@@ -258,6 +262,62 @@ end
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SigmaHubDangCap/BloxFruit/refs/heads/main/MainBloxFruit.lua"))()
     end
   })
+  
+  AddButton(Tab3o, {
+     Name = "h4X hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
+    end
+  }
+  
+  AddButton(Tab3o, {
+     Name = "woid hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+    end
+  }
+  
+  AddButton(Tab3o, {
+     Name = "thanh hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+    end
+  }
+  
+  AddButton(Tab3o, {
+     Name = "hoho",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+    end
+  }
+  
+  AddButton(Tab3o, {
+     Name = "speed hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+     end
+  }
+  
+  AddButton(Tab4o, {
+     Name = "kyoto",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mark22028/Auto-Kyoto-Combo/refs/heads/main/Skibidi%20Sigma%20Combo.txt"))()
+    end
+  }
+  
+  AddButton(Tab4o, {
+     Name = "supa",
+    Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Supa-tech-v2-77454"))()
+    end
+  }
+  
+    
+    
+  
+  
+  
+  
   
   
   
