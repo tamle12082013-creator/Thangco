@@ -10,11 +10,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Key System",
         Description = "",
         KeyLink = "https://notevn.com/sq5pxyh4",
-        Keys = {"tamquadeptrai"},
+        Keys = {"key_366736673667"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "The key is incorrect",
+        CorrectKey = "vô rồi đó thằng lồn",
+       Incorrectkey = "key đéo xài dc",
        CopyKeyLink = "Copied to Clipboard"
       }
     }
@@ -228,6 +228,39 @@ end
     loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/MainV2/refs/heads/main/RedzHubV2.lua"))()
     end
   })
+  
+  AddButton(Tab1o, {
+     Name = "orangre hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/Dev_Orange/refs/heads/main/OrangeHub.lua"))()
+    end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "kha banh hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/KhaBanhHubV2/refs/heads/main/obf_m92m5V2G0rk2XM6IPP1L1O701401kdJLV4V5nEyYclj029p00N3SyRWn7S1ax4Uz.lua.txt"))()
+    end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "nightMystic hub",
+    Callback = function()
+    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().team = "Marines" --  Marines or Pirates
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NightMystic/Bloxfruits/refs/heads/main/Script.lua"))()
+end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "sigma hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SigmaHubDangCap/BloxFruit/refs/heads/main/MainBloxFruit.lua"))()
+    end
+  })
+  
+  
+  
     
   
     
